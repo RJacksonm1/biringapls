@@ -1,0 +1,20 @@
+{
+  "name": "Enhanced Biringa",
+  "version": "0.1",
+  "description": "Does shit WindPottis' should do :D",
+  "author": "Rob Jackson",
+  "homepage_url": "http://rjackson.me",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["http://irc.biringa.com/channel/*"],
+      "js": [
+        "js/jQuery.min.js",
+        "js/moment-with-langs.js",
+        "js/moment-timezone.js",
+        "data/timezone-list.js",
+        "biringapls.js"
+        ]
+    }
+  ]
+}
